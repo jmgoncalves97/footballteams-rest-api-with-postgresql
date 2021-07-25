@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS football_team (
+	id SERIAL PRIMARY KEY,
+	team VARCHAR(50) NOT NULL,
+	country VARCHAR(50) NOT NULL
+);
